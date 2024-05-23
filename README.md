@@ -36,10 +36,6 @@ En este ejemplo, la célula central tiene un vecino a la izquierda con estado 0 
 
 Las reglas de transición se aplican considerando el estado de la célula actual y el estado de sus vecinos inmediatos. Esta vecindad limitada de 3 vecinos simplifica el cálculo de las transiciones y la implementación del autómata.
 
-## Implementación sin Bucles
-
-La implementación del autómata celular en CLISP se realiza sin bucles utilizando recursión y funciones de orden superior. Esto permite aplicar las reglas de transición de manera eficiente y concisa, evitando el uso de estructuras de control iterativas como los bucles. El enfoque funcional de CLISP se presta bien para este tipo de implementaciones, donde las operaciones se aplican a estructuras de datos de manera recursiva.
-
 ## Requisitos
 
 Para ejecutar el código del autómata celular en CLISP, solo necesitas tener instalado un intérprete de Lisp en tu sistema. Puedes utilizar CLISP, SBCL u otro intérprete compatible con Lisp. Puedes encontrar instrucciones de instalación en la documentación oficial de cada intérprete.
